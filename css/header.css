@@ -1,0 +1,23 @@
+.cabecalho_menuHamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(../icons/Menu.svg); /* colocar a imagem do menu no fundo */
+    background-repeat: no-repeat; /* nao vai repetir a imagem */
+    display: inline-block;
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex; /* deixar os intens felxitens, berando muitas funçoes*/
+    justify-content: space-between; /* deixa cada div em um lado das bordas */
+    align-items: center ; /* alinhas os itens no meio da linha */ 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem {
+    padding: 1em;
+}
